@@ -1,0 +1,14 @@
+# Homework: Introducción a Javascript
+
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+        * Variables: en programación se usa para dictarle a la computadora que una palabra (lo que queramos en realidad) es igual a tal otra cosa que nosotros queramos. Así podemos darle un valor a lo que le digamos a esta propiedad.
+
+        * Strings: son una propiedad que nos permite poner palabras o números como textos normales, y así se separa lo que es un “código” para la computadora y lo que es solo un bloque de texto sin más.
+
+        * Funciones (argumentos, return): es una instrucción que le damos a la computadora para que al pedirle tal cosa nos devuelva tal otra. Para eso, después de avisarle que lo siguiente va a ser parte de una función,  le enseñamos con variables, y realice una tarea de la mejor forma.
+
+        * Declaraciones if: es otra instrucción que hace que la computadora realice una tarea bajo las condiciones que le demos. Si (if) una variable es verdadera, tiene que ejecutar tal acción y si es falsa, no o podemos darle otra tarea. 
+        
+        * Valores booleanos (true, false): con  este valor determinamos que es verdadero y que es falso para la computadora a la hora de analizar una variable 
