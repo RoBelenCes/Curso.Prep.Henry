@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   // Tu código:
   if (x = y) {
     return false;
-  }else {
+  }else 
  return true;
 }
 
@@ -75,7 +75,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.length = str2.length) {
     return true;
-  }else {
+  }else 
  return false;
 }
 
@@ -167,7 +167,8 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.random[0, 1];
+  var numeroRandom = Math.random[0, 1];
+  return Number
 }
 
 function esPositivo(numero) {
@@ -181,52 +182,49 @@ function esPositivo(numero) {
 } else 
    if (numero < 0) {
      return "Es negativo";
+    } else
+    return false
 }
-
-return false;
-} 
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var agregarSimboloExclamacion = str + "!";
-  return producto
+  var agregarSimboloExclamacion = "{str}!";
+  return str
 }
 
-function combinarNombres(nombre, apellido) {
+function combinarNombres(nombre, apellido) { 
+  strval(nombre + apellido);
   return str
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
-  // Tu código:
-  var obtenerSaludo = "Hola" + nombre + "!";
-return str
+  // Tu código: 
+  // return `Hola ${nombre}!`;
+  return "Hola "+nombre+"!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  var obtenerAreaRectangulo = ancho * alto;
-  return producto
+  return ancho * alto;
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  var retornarPerimetro = lado * 4;
-  return producto
+  return lado * 4;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
- var areaDelTriangulo = (base * altura) / 2
- return producto
+ return (base * altura) / 2;
 }
 
 
@@ -235,8 +233,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var dolar = 1.20
-  var deEuroAdolar = euro * dolar
-  return multiplicacion
+  return euro * dolar;
 }
 
 
@@ -248,10 +245,9 @@ function esVocal(letra){
   //Escribe tu código aquí
   var esVocal,length = 1;
   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'); {
-    return "Es Vocal"
-}
-
-return false;
+    return "Es vocal"
+  } 
+  return "Dato Incorrecto";
 } 
 
 
@@ -294,4 +290,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
