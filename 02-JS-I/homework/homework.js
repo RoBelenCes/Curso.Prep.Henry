@@ -63,20 +63,21 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x = y) {
+  if (x === y) {
+    return true;
+  } else {
     return false;
-  }else 
- return true;
+  } 
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length = str2.length) {
+  if (str1.length === str2.length) {
     return true;
-  }else 
- return false;
+  } else 
+  return false;
 }
 
 function menosQueNoventa(num) {
@@ -96,60 +97,53 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num > 50) {
     return true;
-}
-
-return false;
+  } else 
+  return false;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var producto = x / y;
-  return resto;
+  return x % y;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (esPar(num)) {
+  if ((num % 2) === 0) {
     return true;
-}
-
-return false;
+  } else 
+  return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (esImpar(num)) {
+  if ((num % 2) === 1) {
     return true;
-}
-
-return false;
+  } else
+  return false;
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var elevarAlCuadrado = num ** 2
-  return producto
+  return num ** 2
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var elevarAlCuadrado = num ** 3
-  return producto
+  return num ** 3 
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var elevarAlCuadrado = num ** exponent
-  return producto
+  return (num ** exponent)
 }
 
 function redondearNumero(num) {
@@ -166,9 +160,8 @@ function redondearHaciaArriba(num) {
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
-  //Pista: investigá qué hace el método Math.random()
-  var numeroRandom = Math.random[0, 1];
-  return Number
+  //Pista: investigá qué hace el método 
+  return Math.random() ;
 }
 
 function esPositivo(numero) {
@@ -176,27 +169,23 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es Negativo"
   //Si el número es 0, devuelve false
-  var numero = numero < 0 > numero 
   if (numero > 0) {
     return "Es positivo";
+  } else if (numero < 0) {
+    return "Es negativo";
 } else 
-   if (numero < 0) {
-     return "Es negativo";
-    } else
-    return false
+   return false 
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var agregarSimboloExclamacion = "{str}!";
-  return str
+  return `${str}!` ;
 }
 
 function combinarNombres(nombre, apellido) { 
-  strval(nombre + apellido);
-  return str
+  return `${nombre} ${apellido}`;
 }
 
 function obtenerSaludo(nombre) {
@@ -243,13 +232,13 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  var esVocal,length = 1;
-  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'); {
-    return "Es vocal"
-  } 
-  return "Dato Incorrecto";
-} 
-
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+    return 'Es vocal'
+   } else if (letra.length !== 1) {
+   return 'Dato incorrecto'
+  } else 
+  return `Dato incorrecto`
+}
 
 
 
